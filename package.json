@@ -1,15 +1,15 @@
 {
-    "name": "batch",
-    "version": "0.5.0",
-    "description": "Simple async batch",
-    "author": "TJ Holowaychuk <tj@vision-media.ca>",
-    "devDependencies": {
-        "mocha": "*",
-        "should": "*"
-    },
-    "main": "index",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/visionmedia/batch.git"
-    }
+  "name": "visionmedia-batch",
+  "description": "Async task batching",
+  "version": "0.5.0",
+  "keywords": [
+    "batch",
+    "async",
+    "utility",
+    "concurrency",
+    "concurrent"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  }
 }

@@ -5,7 +5,7 @@
 try {
   var EventEmitter = require('events').EventEmitter;
 } catch (err) {
-  var Emitter = require('emitter');
+  var Emitter = require('component-emitter');
 }
 
 /**
